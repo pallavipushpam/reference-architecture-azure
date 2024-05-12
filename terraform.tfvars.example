@@ -1,12 +1,12 @@
 
 # Humanitec Organization ID
-humanitec_org_id = ""
+humanitec_org_id = "nous-infossolutions"
 
 # Azure region to deploy into
-location = ""
+location = "south india"
 
 # Azure Subscription (ID) to use
-subscription_id = ""
+subscription_id = "688ff410-b717-4bbb-81a4-33b7540fcb71"
 
 # The Azure VM instances type to use as "Agents" (aka Kubernetes Nodes) in AKS
 vm_size = "Standard_D2_v2"
