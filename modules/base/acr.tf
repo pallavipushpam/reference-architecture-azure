@@ -8,6 +8,6 @@ resource "azurerm_container_registry" "acr" {
   name                = "${var.container_registry_name_prefix}${random_string.name_suffix.result}"
   resource_group_name = azurerm_resource_group.main.name
   location            = azurerm_resource_group.main.location
-  sku                 = "Free"
+  sku                 = "Basic"
   admin_enabled       = false
 }
